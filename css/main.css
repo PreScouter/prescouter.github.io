@@ -1240,7 +1240,10 @@ body{overflow-x: hidden;}
 .head-join-btn:hover{background: #3395ff;border-color: #3395ff;color: #fff;}
 .navi-menu {float: left;width: 78%;} 
 .navi-menu .nav.navbar-nav a{text-transform: uppercase;padding:20px!important;border-top:3px solid #FFF;}
+.benif-client-logos{list-style: none;padding: 0;width: 100%;float: left;margin-bottom: 0;}
+.benif-client-logos li {float: left;text-align: center;width: auto; padding: 0 10px;height: 60px;width: 16.66%;}
 
+.benif-client-logos li img{max-width: 100%;}
 
 /*Responsive Queries*/
 @media (max-width: 1024px){
@@ -1279,6 +1282,7 @@ body{overflow-x: hidden;}
  #cta h2 br{display: none;}
  #cta .col-sm-8{text-align: center;}
  #cta .btn{display: inline-block;}
+ .benif-client-logos li{width: 33.3%;}
 }
 @media (max-width: 480px){
  #cta h2 br{display: block;}
@@ -1289,4 +1293,5 @@ body{overflow-x: hidden;}
  .head-join-btn {margin-right: 0;}
 .navi-menu{margin-top: -85px;}
   .head-join-btn{margin-right: 3px !important;}
+  .benif-client-logos li{width: 50%;}
 }
