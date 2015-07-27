@@ -293,15 +293,54 @@ ul.nostyle i {
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
 }
+/*BG 1
 #cta {
-  padding: 50px 0;
-  background-color: #eeeeee;
+    background: rgba(0, 0, 0, 0) url("../images/7812.jpg") no-repeat scroll center center;
+ background-size: cover;
+    padding: 50px 0;
 }
+End BG 1*/
+
+/*BG 2*/
+#cta {
+    background: rgba(0, 0, 0, 0) url("../images/78121.jpg") no-repeat scroll top center;
+ background-size: cover;
+    padding: 50px 0;
+}
+/*End BG 2*/
 #cta h2 {
-  margin-top: 0;
+    color: #999;
+    font-family: "Roboto",sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+#cta h2 b {
+    color: #007aff;
+    font-weight: 900;
+}
+#cta p {
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 10px;
+}
+#cta p b {
+    font-size: 16px;
 }
 #cta .btn {
-  margin-top: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 20px;
+    text-transform: uppercase;
+    width: 200px;
+}
+#cta .btn {
+    width :200px;
+}
+#cta .btn i {
+    font-size: 19px !important;
 }
 #cta2 {
   background: #242a33 url(../images/cta2/cta2-bg.jpg) no-repeat 50% 50%;
@@ -1195,6 +1234,7 @@ ul.nostyle i {
 
 /*Css Modified*/
 body{overflow-x: hidden;}
+.btn-primary {background-color: #007aff;border-color:#007aff;    color: #ffffff;}
 .head-join-btn{border-radius: 4px;border-radius:4px;margin-top: 15px;border:1px solid #ddd;text-transform: uppercase;color: #5e5e5e;}
 .head-join-btn2{margin-right: 15px;}
 .head-join-btn:hover{background: #3395ff;border-color: #3395ff;color: #fff;}
@@ -1223,6 +1263,8 @@ body{overflow-x: hidden;}
 }
 @media (max-width: 768px){
 .navi-menu .nav.navbar-nav a{padding: 20px 6px !important;}
+  #cta h2{font-size: 35px;}
+ 
 }
 @media (max-width: 640px){
  .navi-menu {margin-left: 0;width: 100%;margin-top: -79px;}
@@ -1232,8 +1274,15 @@ body{overflow-x: hidden;}
  .navbar-nav{margin-bottom: 0;}
  header ul.navbar-nav{margin: 0 0 10px;width: 100%;}
  .head-join-btn{margin: 10px 0 10px 0 !important;}
+  #cta h2{font-size: 30px;text-align: center;}
+ #cta p{text-align: center;}
+ #cta h2 br{display: none;}
+ #cta .col-sm-8{text-align: center;}
+ #cta .btn{display: inline-block;}
 }
-@media (max-width: 480px){}
+@media (max-width: 480px){
+ #cta h2 br{display: block;}
+}
 @media (max-width: 360px){
  .head-join-btn{font-size: 12px;}
 .navi-menu {margin-left: 0;margin-top: -35px;width: 100%;} 
