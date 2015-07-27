@@ -1253,6 +1253,8 @@ End BG 2*/
 #what-we-dont  .col-sm-4{text-align: center;}
 #what-we-dont .row .col-sm-4:first-child{border-right: 1px solid #eee;}
 #what-we-dont .row .col-sm-4:last-child{border-left: 1px solid #eee;}
+
+
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
