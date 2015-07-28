@@ -293,20 +293,15 @@ ul.nostyle i {
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
 }
-/*BG 1
+
 #cta {
     background: rgba(0, 0, 0, 0) url("../images/7812.jpg") no-repeat scroll center center;
  background-size: cover;
     padding: 50px 0;
 }
-End BG 1*/
 
-/*BG 2*/
-#cta {
-    background: rgba(0, 0, 0, 0) url("../images/78121.jpg") no-repeat scroll top center;
- background-size: cover;
-    padding: 50px 0;
-}
+
+
 /*End BG 2*/
 #cta h2 {
     color: #999;
