@@ -772,19 +772,35 @@ End BG 1*/
 #about {
   padding: 100px 0;
 }
+/*-Old-class
 #work-process {
   padding: 100px 0 50px;
   background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
+}*/
+
+/*-New-class-*/
+#work-process {
+  padding: 100px 0 50px;
+  background: #FFF;
+   color: #64686d;
 }
-#work-process h2 {
-  color: #fff;
-}
+/*-end-New-class-*/
+
+/*-old-class
+#work-process h2 {color: #fff;}*/
+/*-new-class-*/
+#work-process h2 {color: #272727;}.
+/*-end-new-class-*/
+
 #work-process h3 {
   color: #fff;
   margin-bottom: 0;
 }
+#work-process h6{ color: #272727;
+    font-family: "Roboto",sans-serif;
+    font-weight: 600;font-size: 20px;}
 #work-process .icon-circle {
   display: inline-block;
   width: 80px;
@@ -1254,6 +1270,11 @@ End BG 2*/
 #what-we-dont .row .col-sm-4:first-child{border-right: 1px solid #eee;}
 #what-we-dont .row .col-sm-4:last-child{border-left: 1px solid #eee;}
 
+/*28-JULY*/
+.fa-flip-horizontal:after{right:53px !important;}
+/*-July-28-*/
+.font16{font-size: 16px;}
+/*-July-28-*/
 
 /*Responsive Queries*/
 @media (max-width: 1024px){
