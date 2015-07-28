@@ -1277,6 +1277,7 @@ End BG 2*/
 .how-it-box h6{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;color: #333 !important;}
 .how-it-box p{font-size: 14px;line-height: normal;color: #999;}
 .how-it-box:hover{background: #f1f1f1;}
+#testimonial img.img-thumbnail{width: 130px;height: 130px;}
 /*28-JULY*/
 
 /*Responsive Queries*/
