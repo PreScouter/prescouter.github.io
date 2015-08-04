@@ -164,8 +164,6 @@ ul.nostyle i {
 }
 .navbar.navbar-default .navbar-brand {
   height: auto;
-    font-size: 24px;
-    margin-top: 8px;
  padding: 13px 15px 0;
 }
 @media only screen and (min-width: 768px) {
@@ -1476,3 +1474,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
   .head-join-btn{margin-right: 3px !important;}
   .benif-client-logos li{width: 50%;}
 }
+
+.navbar-brand{font-size: 33px;margin-top: 8px;}
+.navbar-brand span{color: #007aff;font-weight: 400;font-family: 'Raleway', sans-serif;}
+.navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
