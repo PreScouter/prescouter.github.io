@@ -605,8 +605,10 @@ ul.nostyle i {
 #clients .portfolio-filter {
   list-style: none;
   padding: 0;
-  margin: 0 0 50px;
+ /* margin: 0 0 50px;*/
+   margin: 0;
   display: inline-block;
+ z-index: 2;
 }
 #clients .portfolio-filter > li {
   float: left;
@@ -642,9 +644,9 @@ ul.nostyle i {
 #clients .portfolio-filter > li:last-child a {
   border-radius: 0 4px 4px 0;
 }
-#clients .portfolio-items {
+/*#clients .portfolio-items {
   margin: -15px;
-}
+}*/
 #clients .portfolio-item {
   width: 24.9%;
   float: left;
@@ -1361,10 +1363,10 @@ body{overflow-x: hidden;}
 .inpage-header .page-title h1{text-transform: uppercase;}
 .inpage-header .page-title em{line-height: normal;}
 
+
 /*4-AUG*/
 
-
-.navbar-brand span {
+/*.navbar-brand span {
     color: #007aff;
     font-family: "Raleway",sans-serif;
     font-weight: 400;
@@ -1373,7 +1375,7 @@ body{overflow-x: hidden;}
     color: #707070;
     font-family: "Raleway",sans-serif;
     font-weight: 400;
-}
+}*/
 .blog-newsbox{padding: 40px;background-color: #fff;margin: 40px 0;box-shadow: 0 0 10px #ccc;background: url("../images/newsbox.jpg") no-repeat;background-size:cover;border:2px solid #fff;}
 .blog-newsbox strong{width: 100%;display: block;font-family: "Roboto",sans-serif;font-weight: 300;font-size: 23px;line-height: normal;text-transform: uppercase;color: #8c8c8c;}
 .blog-newsbox strong b{color: #007aff;font-weight: 300;}
@@ -1384,7 +1386,7 @@ body{overflow-x: hidden;}
     color: #787878 !important;
     font-size: 18px;
 }
-.flogo span {
+/*.flogo span {
     color: #007aff;
     font-family: "Raleway",sans-serif;
     font-weight: 200;
@@ -1393,11 +1395,11 @@ body{overflow-x: hidden;}
     color: #707070;
     font-family: "Raleway",sans-serif;
     font-weight: 200;
-}
+}*/
 #cta h2{
 font-family: "Roboto",sans-serif;font-weight: 300;
 }
-#cta .txt-logo span {
+/*#cta .txt-logo span {
     color: #007aff !important;
     font-family: "Raleway",sans-serif;
     font-weight: 400;
@@ -1406,7 +1408,20 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     color: #707070 !important;
     font-family: "Raleway",sans-serif;
     font-weight: 400;
-}
+}*/
+#clients .portfolio-items{width: 100%;margin:  0  !important;float: left;}
+#clients .portfolio-item{width: auto;padding: 0;}
+#clients .portfolio-filter > li a{min-height: 55px;line-height: normal;background: #fff;border-right:1px solid #ddd; }
+#clients .portfolio-filter > li a:focus{outline: none;}
+.portfolio-filter{border:1px solid #ddd;background: #fff;}
+#clients .portfolio-filter > li a.active:after{border-color: #007aff transparent transparent; z-index: 2;}
+#clients .portfolio-filter > li a.active{box-shadow: none;}
+#clients .portfolio-filter > li:last-child a{border-right: 0;}
+
+#clients .benif-client-logos li {float: left;text-align: center;width: auto; padding: 0 10px;height: auto;width:auto;margin: 15px;}
+#clients{background: #fff;}
+.isotope-item{display: block;}
+.isotope-item.isotope-hidden{display: none;}
 /*End 4-AUG*/
 
 
