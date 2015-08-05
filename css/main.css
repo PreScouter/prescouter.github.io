@@ -9,7 +9,7 @@ Author URL: http://shapebootstrap.net
 *******Typography******
 **************************/
 body {
-  padding-top: 100px;
+  padding-top: 60px;
   background: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -225,8 +225,7 @@ ul.nostyle i {
 }
 #main-slider .item {
   height: 558px;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
+
   background-size: cover;
 }
 #main-slider .slider-inner {
@@ -1430,6 +1429,27 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .btn{box-shadow: none !important;}
 .btn.btn-primary:hover, .btn.btn-primary:focus {
     background: #007aff none repeat scroll 0 0 !important;
+}
+.carousel-content {
+    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+    padding: 30px;
+}
+#main-slider .slider-inner h2 {
+    color: #707070 !important;
+    font-family: "Roboto",sans-serif;
+    font-size: 28px !important;
+    font-weight: 300;
+    margin-top: 75px !important;
+ 
+}
+#main-slider .slider-inner h2 b {
+    color: #007aff;
+  font-weight: 400;
+}
+#main-slider .slider-inner p {
+    font-size: 15px;
+    line-height: normal;
+    text-transform: uppercase;
 }
 /*End 5-AUG*/
 
