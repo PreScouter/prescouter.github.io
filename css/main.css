@@ -1425,6 +1425,9 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 /*5-AUG*/
 #main-menu.navbar-default .navbar-nav > li > a{border-top: 3px solid #fff;}
 #main-menu.navbar-default .navbar-nav > li > a,#main-menu.navbar-default .navbar-nav > li.active > a,#main-menu.navbar-default .navbar-nav > li > a:hover{padding-top: 18px;padding-bottom: 18px;}
+.signtext{width: 100%;display: block;font-family: "Roboto",sans-serif;font-weight: 300;font-size: 23px;line-height: normal;text-transform: uppercase;color: #8c8c8c !important;}
+.signtext b{color: #007aff;font-weight: 300;}
+
 /*End 5-AUG*/
 
 
