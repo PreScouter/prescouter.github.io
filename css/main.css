@@ -354,7 +354,7 @@ ul.nostyle i {
   color: #007aff;
 }
 #features {
-  /* padding: 100px 0; */
+   padding: 100px 0; 
 }
 #features .media.service-box:first-child {
   margin-top: 80px;
@@ -1183,6 +1183,7 @@ ul.nostyle i {
 }
 #scholars {
   overflow: hidden;
+ padding: 100px 0;
 }
 #scholars .item {
   height: 680px;
