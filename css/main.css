@@ -92,7 +92,7 @@ hr {
 }
 .btn.btn-primary:hover {
   background: #007aff;
-  border-color: #007aff;
+  /* border-color: #007aff; */
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
@@ -1019,10 +1019,14 @@ ul.nostyle i {
 }
 #get-in-touch {
   padding: 100px 0 50px;
-  background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+ /* background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+ background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);*/
   color: #fff;
+ background-image: -moz-linear-gradient( -90deg, rgb(8,110,222) 0%, rgb(70,150,236) 64%);
+  background-image: -webkit-linear-gradient( -90deg, rgb(8,110,222) 0%, rgb(70,150,236) 64%);
+  background-image: -ms-linear-gradient( -90deg, rgb(8,110,222) 0%, rgb(70,150,236) 64%);
 }
 #get-in-touch h1,
 #get-in-touch h2 {
@@ -1512,3 +1516,14 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .navbar-brand{font-size: 33px;margin-top: 8px;}
 .navbar-brand span{color: #007aff;font-weight: 400;font-family: 'Raleway', sans-serif;}
 .navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
+
+/* 5 aug*/
+#clientquote{margin-bottom: 60px;}
+.client-quote{padding: 25px;position: relative;max-width: 700px;margin: auto;border-radius: 20px;background: #eaf4ff;border:3px solid #fff;box-shadow:  0 0 10px #ccc;} 
+.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #454545;display: block;padding: 40px 70px 40px 180px;}
+.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 35px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
+.client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
+.client-quote img.qt{position: absolute;left: 22%;max-width: 40px;top: 13%;}
+.client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: -30px;border-radius: 50%;background-color: #fff;border:10px solid #fff;box-shadow:  0 0 10px #ccc;}
+.client-quote img.clientlogo{margin-left: 190px;margin-top: 10px;}
+.client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 190px;font-size: 16px;color: #4da2ff;}
