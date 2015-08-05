@@ -1422,6 +1422,12 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .isotope-item.isotope-hidden{display: none;}
 /*End 4-AUG*/
 
+/*5-AUG*/
+#main-menu.navbar-default .navbar-nav > li > a{border-top: 3px solid #fff;}
+#main-menu.navbar-default .navbar-nav > li > a,#main-menu.navbar-default .navbar-nav > li.active > a,#main-menu.navbar-default .navbar-nav > li > a:hover{padding-top: 18px;padding-bottom: 18px;}
+/*End 5-AUG*/
+
+
 
 /*Responsive Queries*/
 @media (max-width: 1024px){
