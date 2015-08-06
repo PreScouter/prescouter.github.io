@@ -776,8 +776,8 @@ ul.nostyle i {
 
 /*-New-class-*/
 #work-process {
-  padding: 100px 0;
-  background: #FFF;
+/*  padding: 100px 0;
+  background: #FFF;*/
    color: #64686d;
 }
 /*-end-New-class-*/
@@ -1270,11 +1270,11 @@ body{overflow-x: hidden;}
 
 /*28-JULY*/
 .fa-flip-horizontal:after{right:53px !important;}
-.how-it-box{padding: 20px;background: #fff;border:1px solid #eee;min-height: 225px;box-shadow: 0 0 10px #e3e3e3;}
+.how-it-box{padding: 20px;/*background: #fff;border:1px solid #eee;*/min-height: 225px;/*box-shadow: 0 0 10px #e3e3e3;*/}
 .how-it-box i{width: 70px;height: 70px;background: #007aff;color: #fff;border-radius: 50%;line-height: 70px;font-size: 32px;}
 .how-it-box h6{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;color: #333 !important;}
-.how-it-box p{font-size: 14px;line-height: normal;color: #999;}
-.how-it-box:hover{background: #f1f1f1;}
+.how-it-box p{font-size: 14px;line-height: normal;color: #333;}
+/*.how-it-box:hover{background: #f1f1f1;}*/
 #testimonial img.img-thumbnail{width: 130px;height: 130px;}
 .service-box i.fa{font-size: 60px;color: #007aff;padding-bottom: 20px;margin-bottom: 20px;border-bottom: 2px solid #eee;width: 70px;}
 .service-box h4{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;}
@@ -1436,25 +1436,26 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     background: #007aff none repeat scroll 0 0 !important;
 }
 .carousel-content {
-    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
     padding: 30px;
+ margin-top: 130px;
 }
 #main-slider .slider-inner h2 {
-    color: #707070 !important;
+    color: #333 !important;
     font-family: "Roboto",sans-serif;
-    font-size: 28px !important;
-    font-weight: 300;
-    margin-top: 75px !important;
+    font-size: 30px !important;
+    font-weight: 400;
+    margin-top: 45px !important;
  
 }
 #main-slider .slider-inner h2 b {
     color: #007aff;
-  font-weight: 400;
+  font-weight: 500;
 }
 #main-slider .slider-inner p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: normal;
-    text-transform: uppercase;
+
 }
 .btn-lg, .btn-group-lg > .btn{padding: 13px 16px;}
 /*End 5-AUG*/
