@@ -1473,6 +1473,26 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     transform: rotateY(0deg); /* Standard syntax */
 
 }
+.about-pagehead{background: url("../images/about-pg1.jpg") no-repeat top center;background-size: cover;height: 250px;}
+.about-pagehead .inpage-header-overlay{background:rgba(0, 0, 0, 0.5);}
+.about-pagehead .container{position: relative;z-index: 2;color: #fff;}
+.about-pagehead h2{color: #fff !important;}
+.about-pagebox{
+    border: 1px solid #eee;
+   font-family: "Roboto",sans-serif;
+    padding: 30px;
+ background: #fff;
+}
+.aboutpage .column-title::after ,.aboutpage .column-title{
+    border: medium none !important;
+ color: #007aff;
+ text-transform: uppercase;
+}
+.about-pagebox p{line-height: 20px;}
+.about-pagebox .col-sm-5 h3{
+margin-top: 80px;
+}
+.about-pagebox .col-sm-5 p{font-family: "Roboto",sans-serif;}
 /*End 6-AUG*/
 
 
