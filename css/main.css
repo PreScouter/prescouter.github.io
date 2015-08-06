@@ -1460,6 +1460,20 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .btn-lg, .btn-group-lg > .btn{padding: 13px 16px;}
 /*End 5-AUG*/
 
+/*6-AUG*/
+#services .media-body p{opacity: 0;
+ -webkit-transform: rotateY(-180deg); /* Safari */
+    transform: rotateY(-180deg); /* Standard syntax */
+ 	transition: all 1s;
+ -moz-transition: all 1s;
+ -webkit-transition: all 1s;
+}
+#services .col-sm-4:hover p{opacity: 1;
+ -webkit-transform: rotateY(0deg); /* Safari */
+    transform: rotateY(0deg); /* Standard syntax */
+
+}
+/*End 6-AUG*/
 
 
 /*Responsive Queries*/
