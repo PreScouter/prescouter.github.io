@@ -256,7 +256,7 @@ Our clients value the unbiased insights and creative out-of the box thinking tha
 
             <div class="text-center">
                 <ul class="portfolio-filter">
-                   <li><a  href="#" class="active" data-filter="*">All</a></li>
+                   <li><a  href="#" id="all_partners" class="active" data-filter=".all">All</a></li>
                     <li><a  href="#" data-filter=".one">High-Technology<br> &amp; Defense</a></li>
                     <li><a href="#" data-filter=".two">Finance<br> &amp; Insurance</a></li>
                     <li><a href="#" data-filter=".three">Manufacturing</a></li>
@@ -271,6 +271,27 @@ Our clients value the unbiased insights and creative out-of the box thinking tha
   <!--New Design-->
         <div class="portfolio-items">
           <div class="clearfix"></div>
+		   <div class="portfolio-item all ">
+ <ul class="benif-client-logos pull-lef">
+   <li><img alt="client" src="images/clientlogos/high-tech-defense/Applied_Materials_Logo.svg.png"></li>
+               
+   <li><img alt="client" src="images/clientlogos/high-tech-defense/baesystems.jpg"></li>
+     <li><img alt="client" src="images/clientlogos/finance-insurance/American-Fam-logo-100x27.jpeg"></li>
+   <li><img alt="client" src="images/clientlogos/finance-insurance/mercury-logo21.jpg"></li>
+	 <li><img alt="client" src="images/clientlogos/manufacturing/BrewerScience_Logo.gif"></li>
+   <li><img alt="client" src="images/clientlogos/manufacturing/gentherm-logo-100x50.jpg"></li>
+	<li><img alt="client" src="images/clientlogos/advanced-materials-chemistry/aaaAftonLogo.jpg"></li>
+   <li><img alt="client" src="images/clientlogos/advanced-materials-chemistry/evonik-100x40.jpg"></li>
+	
+   <li><img alt="client" src="images/clientlogos/healthcare-life-sciences/paulmitchell-logo.gif"></li>
+	   <li><img alt="client" src="images/clientlogos/consumer-products-goods/char-broil-logo.jpg"></li>
+   <li><img alt="client" src="images/clientlogos/consumer-products-goods/KimberlyClarklogo-100x13.png"></li>
+    <li><img alt="client" src="images/clientlogos/food-beverage-packaging/746px-Coca-Cola_logo_svg.png"></li>
+  <li><img alt="client" src="images/clientlogos/food-beverage-packaging/Clorox_Medium.png"></li>
+     <li><img alt="client" src="images/clientlogos/advanced-energy-feedstocks/anglo%20logo.jpeg"></li> 
+  <li><img alt="client" src="images/clientlogos/advanced-energy-feedstocks/electrochem-100x21.jpg"></li>
+  </ul>
+                </div>
           <div class="portfolio-item one ">
  <ul class="benif-client-logos pull-lef">
    <li><img alt="client" src="images/clientlogos/high-tech-defense/Applied_Materials_Logo.svg.png"></li>
@@ -651,7 +672,8 @@ Our clients value the unbiased insights and creative out-of the box thinking tha
                 <p class="text-center wow fadeInDown">Scholars from tier one global universities work on your projects </p>
             </div>
         <div class="owl-carousel122">
-            <div class="item" style="background-image: url(images/schoular.jpg);">
+           <!-- <div class="item" style="background-image: url(images/schoular.jpg);">-->
+              <div class="item" style="background-image: url(images/scholars-map-1.jpg);"> 
                
                     <div class="container">
                          
@@ -1094,5 +1116,11 @@ End New Design -->
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+	<script>	
+		$(document).ready(function(){
+            setTimeout(function(){$( "#all_partners" ).trigger( "click" );}, 2000);
+		});
+    
+	</script>
 </body>
 </html>

@@ -1592,3 +1592,14 @@ margin-top: 80px;
 .founder-list ul li:last-child{border-bottom: 0;}
 .founder-list ul li .col-sm-3 img{width: 100%;}
 /*End Founder Page Classes*/
+
+
+
+
+/*-August-7-*/
+.suffering-part{visibility: visible!important;font-size: 12px;color: #000;}
+.about-pagebox .embed-responsive.embed-responsive-16by9{height: auto !important;}
+.about-pagebox .embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 0;
+} 
+/*-End-August-7-*/
