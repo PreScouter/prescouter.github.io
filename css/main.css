@@ -1156,7 +1156,7 @@ ul.nostyle i {
 ********* Footer ******
 ************************/
 #footer {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   padding-bottom: 30px;
   color: #fff;
   background: #2e2e2e;
@@ -1190,7 +1190,7 @@ ul.nostyle i {
  padding: 100px 0;
 }
 #scholars .item {
-  height: 680px;
+  height: 790px;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -1274,7 +1274,7 @@ body{overflow-x: hidden;}
 .how-it-box i{width: 70px;height: 70px;background: #007aff;color: #fff;border-radius: 50%;line-height: 70px;font-size: 32px;}
 .how-it-box h6{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;color: #333 !important;}
 .how-it-box p{font-size: 14px;line-height: normal;color: #333;}
-/*.how-it-box:hover{background: #f1f1f1;}*/
+.how-it-box:hover{background: rgba(256,256,256,0.5);}
 #testimonial img.img-thumbnail{width: 130px;height: 130px;}
 .service-box i.fa{font-size: 60px;color: #007aff;padding-bottom: 20px;margin-bottom: 20px;border-bottom: 2px solid #eee;width: 70px;}
 .service-box h4{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;}
@@ -1585,7 +1585,7 @@ margin-top: 80px;
 #clientquote{margin-bottom: 60px;}
 .client-quote{padding: 25px;position: relative;max-width: 700px;margin: auto;border-radius: 20px;background: #eaf4ff;border:3px solid #fff;box-shadow:  0 0 10px #ccc;} 
 .client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #454545;display: block;padding: 40px 70px 40px 180px;}
-.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 35px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
+.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 26px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
 .client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
 .client-quote img.qt{position: absolute;left: 22%;max-width: 40px;top: 13%;}
 .client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: -30px;border-radius: 50%;background-color: #fff;border:10px solid #fff;box-shadow:  0 0 10px #ccc;}
