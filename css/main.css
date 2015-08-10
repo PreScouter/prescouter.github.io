@@ -237,7 +237,7 @@ ul.nostyle i {
   color: #fff;
 }
 #main-slider .slider-inner h2 {
-  margin-top: 180px;
+  /* margin-top: 180px; */
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
@@ -1436,16 +1436,18 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     background: #007aff none repeat scroll 0 0 !important;
 }
 .carousel-content {
-    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
     padding: 30px;
- margin-top: 130px;
+ 
+    margin-top: 130px;
+    /* line-height: 50px; */
 }
 #main-slider .slider-inner h2 {
     color: #333 !important;
     font-family: "Roboto",sans-serif;
-    font-size: 30px !important;
+    font-size: 50px !important;
     font-weight: 400;
-    margin-top: 45px !important;
+    /* margin-top: 45px !important; */
  
 }
 #main-slider .slider-inner h2 b {
@@ -1632,3 +1634,8 @@ margin-top: 80px;
   padding-bottom: 0;
 } 
 /*-End-August-7-*/
+
+
+.section-header p{
+    font-size: 22px;
+}
