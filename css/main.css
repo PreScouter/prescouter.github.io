@@ -1525,6 +1525,13 @@ margin-top: 80px;
 #contactus .form-group{margin-bottom: 15px;}
 /*End 10-AUG*/
 
+/*11-AUG*/
+.testimonials .client-quote{max-width: 100%;min-height: 270px;}
+.testimonials .client-quote strong{font-size: 16px;padding: 40px 20px 40px 130px;}
+.testimonials .client-quote img.qt{left: 17%;}
+.testimonials .client-quote img.clientimg{left: -20px;max-width: 100%;width: 170px;height: 170px;}
+.testimonials  .client-quote small{padding: 0 0 0 135px;}
+/*End 11-AUG*/
 
 
 /*Responsive Queries*/
