@@ -1594,6 +1594,15 @@ margin-top: 80px;
 #services .media-body p {min-height: 200px;}
 #scholars{padding: 0 0 100px;position: relative;}
 #scholars .section-header{top: 40px;position: absolute;width: 100%;}
+#main-slider .slider-inner h2{text-transform: none;font-weight: 700;}
+#main-slider .slider-inner p{color: #404455;font-size: 16px;margin: 20px 0;border-top: 1px solid #ddd;padding-top: 20px;}
+#main-slider .slider-inner a.btn{font-size: 20px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    text-transform: uppercase;
+ width: 220px;}
 /*End 11-AUG*/
 
 
