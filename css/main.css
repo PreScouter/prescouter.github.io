@@ -1462,6 +1462,66 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .btn-lg, .btn-group-lg > .btn{padding: 13px 16px;}
 /*End 5-AUG*/
 
+.navbar-brand{font-size: 33px;margin-top: 8px;}
+.navbar-brand span{color: #007aff;font-weight: 400;font-family: 'Raleway', sans-serif;}
+.navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
+
+/* 5 aug*/
+#clientquote{margin-bottom: 60px;}
+.client-quote{padding: 25px;position: relative;max-width: 700px;margin: auto;border-radius: 20px;background: #eaf4ff;border:3px solid #fff;box-shadow:  0 0 10px #ccc;} 
+.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #454545;display: block;padding: 40px 70px 40px 180px;}
+.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 26px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
+.client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
+.client-quote img.qt{position: absolute;left: 22%;max-width: 40px;top: 13%;}
+.client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: -30px;border-radius: 50%;background-color: #fff;border:10px solid #fff;box-shadow:  0 0 10px #ccc;}
+.client-quote img.clientlogo{margin-left: 190px;margin-top: 10px;}
+.client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 190px;font-size: 16px;color: #4da2ff;}
+
+
+/*Career Page Classes*/
+.career-pagehead{background: url("../images/career.jpg") no-repeat top center;background-size: cover;}
+.career-title{font-size: 25px;font-family: "Roboto",sans-serif;font-weight: 300;margin-bottom: 20px;display: block;}
+.career-txt-list li{position: relative;padding-left: 27px;}
+.career-txt-list li i{position: absolute;font-size: 23px;left: 0;color: #2e89ed;top: 2px;}
+.career-txt-list li b{font-size: 19px;color: #2e89ed;font-family: "Roboto",sans-serif;font-weight: 300;}
+.career-txt-list li p{line-height: normal;font-size: 13px;}
+.career-listing{padding: 30px;border:1px solid #ddd;margin-bottom: 40px;width: 100%;background: #fff;}
+.career-txt-title {font-size: 18px;family: "Roboto",sans-serif;font-weight: 300;color: #3395ff;}
+.career-listing p{line-height: normal;}
+.career-listing p a{color: #454545;font-weight: 700;display: inline-block;margin-top: 4px;}
+.career-listing p a:hover{color: #2e89ed;}
+/*End Career Page Classes*/
+
+
+/*Founder Page Classes*/
+.founder-pagehead{background: url("../images/founders.jpg") no-repeat top center;background-size: cover;}
+.founder-imgs img{width: 100%;}
+.founder-list{padding: 30px;border:1px solid #ddd;margin-bottom: 40px;width: 100%;background: #fff;}
+.founder-title{font-size: 25px;font-family: "Roboto",sans-serif;font-weight: 500;margin-bottom: 20px;display: block;color: #2e89ed;}
+.founder-list ul,.founder-list ul li{width: 100%;font-family: "Roboto",sans-serif;}
+.founder-list ul li{border-top: 1px solid #ddd;}
+.founder-list ul li strong{font-size: 22px;text-transform: uppercase;font-weight: 300;color: #132125;margin-top: 30px;display: inline-block;}
+.founder-list ul li em{color: #999;}
+.founder-list ul li p{line-height: normal;margin-top: 20px;}
+.founder-list ul li:last-child{border-bottom: 0;}
+.founder-list ul li .col-sm-3 img{width: 100%;}
+/*End Founder Page Classes*/
+
+
+
+
+/*-August-7-*/
+.suffering-part{visibility: visible!important;font-size: 12px;color: #000;}
+.about-pagebox .embed-responsive.embed-responsive-16by9{height: auto !important;}
+.about-pagebox .embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 0;
+} 
+/*-End-August-7-*/
+
+
+.section-header p{
+    font-size: 22px;
+}
 /*6-AUG*/
 #services .media-body p{opacity: 0;
  -webkit-transform: rotateY(-180deg); /* Safari */
@@ -1532,6 +1592,8 @@ margin-top: 80px;
 .testimonials .client-quote img.clientimg{left: -20px;max-width: 100%;width: 170px;height: 170px;}
 .testimonials  .client-quote small{padding: 0 0 0 135px;}
 #services .media-body p {min-height: 200px;}
+#scholars{padding: 0 0 100px;position: relative;}
+#scholars .section-header{top: 40px;position: absolute;width: 100%;}
 /*End 11-AUG*/
 
 
@@ -1585,65 +1647,4 @@ margin-top: 80px;
 .navi-menu{margin-top: -85px;}
   .head-join-btn{margin-right: 3px !important;}
   .benif-client-logos li{width: 50%;}
-}
-
-.navbar-brand{font-size: 33px;margin-top: 8px;}
-.navbar-brand span{color: #007aff;font-weight: 400;font-family: 'Raleway', sans-serif;}
-.navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
-
-/* 5 aug*/
-#clientquote{margin-bottom: 60px;}
-.client-quote{padding: 25px;position: relative;max-width: 700px;margin: auto;border-radius: 20px;background: #eaf4ff;border:3px solid #fff;box-shadow:  0 0 10px #ccc;} 
-.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #454545;display: block;padding: 40px 70px 40px 180px;}
-.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 26px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
-.client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
-.client-quote img.qt{position: absolute;left: 22%;max-width: 40px;top: 13%;}
-.client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: -30px;border-radius: 50%;background-color: #fff;border:10px solid #fff;box-shadow:  0 0 10px #ccc;}
-.client-quote img.clientlogo{margin-left: 190px;margin-top: 10px;}
-.client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 190px;font-size: 16px;color: #4da2ff;}
-
-
-/*Career Page Classes*/
-.career-pagehead{background: url("../images/career.jpg") no-repeat top center;background-size: cover;}
-.career-title{font-size: 25px;font-family: "Roboto",sans-serif;font-weight: 300;margin-bottom: 20px;display: block;}
-.career-txt-list li{position: relative;padding-left: 27px;}
-.career-txt-list li i{position: absolute;font-size: 23px;left: 0;color: #2e89ed;top: 2px;}
-.career-txt-list li b{font-size: 19px;color: #2e89ed;font-family: "Roboto",sans-serif;font-weight: 300;}
-.career-txt-list li p{line-height: normal;font-size: 13px;}
-.career-listing{padding: 30px;border:1px solid #ddd;margin-bottom: 40px;width: 100%;background: #fff;}
-.career-txt-title {font-size: 18px;family: "Roboto",sans-serif;font-weight: 300;color: #3395ff;}
-.career-listing p{line-height: normal;}
-.career-listing p a{color: #454545;font-weight: 700;display: inline-block;margin-top: 4px;}
-.career-listing p a:hover{color: #2e89ed;}
-/*End Career Page Classes*/
-
-
-/*Founder Page Classes*/
-.founder-pagehead{background: url("../images/founders.jpg") no-repeat top center;background-size: cover;}
-.founder-imgs img{width: 100%;}
-.founder-list{padding: 30px;border:1px solid #ddd;margin-bottom: 40px;width: 100%;background: #fff;}
-.founder-title{font-size: 25px;font-family: "Roboto",sans-serif;font-weight: 500;margin-bottom: 20px;display: block;color: #2e89ed;}
-.founder-list ul,.founder-list ul li{width: 100%;font-family: "Roboto",sans-serif;}
-.founder-list ul li{border-top: 1px solid #ddd;}
-.founder-list ul li strong{font-size: 22px;text-transform: uppercase;font-weight: 300;color: #132125;margin-top: 30px;display: inline-block;}
-.founder-list ul li em{color: #999;}
-.founder-list ul li p{line-height: normal;margin-top: 20px;}
-.founder-list ul li:last-child{border-bottom: 0;}
-.founder-list ul li .col-sm-3 img{width: 100%;}
-/*End Founder Page Classes*/
-
-
-
-
-/*-August-7-*/
-.suffering-part{visibility: visible!important;font-size: 12px;color: #000;}
-.about-pagebox .embed-responsive.embed-responsive-16by9{height: auto !important;}
-.about-pagebox .embed-responsive.embed-responsive-16by9 {
-  padding-bottom: 0;
-} 
-/*-End-August-7-*/
-
-
-.section-header p{
-    font-size: 22px;
 }
