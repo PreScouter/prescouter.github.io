@@ -1616,6 +1616,10 @@ margin-top: 80px;
 background: url('../images/howitworkbg.jpg') repeat;
  padding: 100px 0;margin-bottom: 100px;
 }
+body.innerpage {
+    background: #ececec none repeat scroll 0 0;
+}
+body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 /*End 11-AUG*/
 
 
