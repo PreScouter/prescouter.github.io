@@ -1591,7 +1591,7 @@ margin-top: 80px;
 .testimonials .client-quote img.qt{left: 17%;}
 .testimonials .client-quote img.clientimg{left: -20px;max-width: 100%;width: 170px;height: 170px;}
 .testimonials  .client-quote small{padding: 0 0 0 135px;}
-#services .media-body p {min-height: 200px;}
+#services .media-body p {background: rgba(0,0,0,0.7);color: #fff;}
 #scholars{padding: 0 0 100px;position: relative;}
 #scholars .section-header{top: 40px;position: absolute;width: 100%;}
 #main-slider .slider-inner h2{text-transform: none;font-weight: 700;}
@@ -1603,6 +1603,15 @@ margin-top: 80px;
     padding: 0;
     text-transform: uppercase;
  width: 220px;}
+#services .col-sm-4 {
+    border: 1px solid #ddd;
+ padding: 0
+}
+#services .media.service-box {
+    height: 260px;
+    padding: 20px;
+ margin: 0;
+}
 /*End 11-AUG*/
 
 
