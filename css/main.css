@@ -224,7 +224,7 @@ ul.nostyle i {
   overflow: hidden;
 }
 #main-slider .item {
-  height: 558px;
+  height: 540px;
 
   background-size: cover;
 }
@@ -785,7 +785,7 @@ ul.nostyle i {
 /*-old-class
 #work-process h2 {color: #fff;}*/
 /*-new-class-*/
-#work-process h2 {color: #272727;};
+#work-process h2 {/* color: #272727; */};
 /*-end-new-class-*/
 
 #work-process h3 {
@@ -1274,7 +1274,7 @@ body{overflow-x: hidden;}
 .how-it-box i{width: 70px;height: 70px;background: #007aff;color: #fff;border-radius: 50%;line-height: 70px;font-size: 32px;}
 .how-it-box h6{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;color: #333 !important;}
 .how-it-box p{font-size: 14px;line-height: normal;color: #333;}
-.how-it-box:hover{background: rgba(256,256,256,0.5);}
+.how-it-box:hover{/* background: rgba(256,256,256,0.5); */}
 #testimonial img.img-thumbnail{width: 130px;height: 130px;}
 .service-box i.fa{font-size: 60px;color: #007aff;padding-bottom: 20px;margin-bottom: 20px;border-bottom: 2px solid #eee;width: 70px;}
 .service-box h4{text-transform: uppercase;font-family: "Roboto",sans-serif !important;font-weight: 400 !important;}
@@ -1439,7 +1439,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
     padding: 30px;
  
-    margin-top: 130px;
+    margin-top: 196px;
     /* line-height: 50px; */
 }
 #main-slider .slider-inner h2 {
@@ -1595,7 +1595,7 @@ margin-top: 80px;
 #scholars{padding: 0 0 100px;position: relative;}
 #scholars .section-header{top: 40px;position: absolute;width: 100%;}
 #main-slider .slider-inner h2{text-transform: none;font-weight: 700;}
-#main-slider .slider-inner p{color: #404455;font-size: 16px;margin: 20px 0;border-top: 1px solid #ddd;padding-top: 20px;}
+#main-slider .slider-inner p{color: #000;font-size: 22px;margin: 20px 0;border-top: 1px solid #ddd;padding-top: 20px;}
 #main-slider .slider-inner a.btn{font-size: 20px;
     font-weight: 300;
     height: 40px;
@@ -1613,8 +1613,9 @@ margin-top: 80px;
  margin: 0;
 }
 .howitwork{
-background: url('../images/howitworkbg.jpg') repeat;
+/* background: url('../images/howitworkbg.jpg') repeat; */
  padding: 100px 0;margin-bottom: 100px;
+background-color: #f9f9f9;
 }
 body.innerpage {
     background: #ececec none repeat scroll 0 0;
