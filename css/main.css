@@ -1621,6 +1621,10 @@ body.innerpage {
 }
 body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 /*End 11-AUG*/
+/*12-AUG*/
+.career-pagehead{background: url("../images/careers.jpg") no-repeat top center;background-size: cover;height: 250px;}
+/*End 12-AUG*/
+
 
 
 /*Responsive Queries*/
