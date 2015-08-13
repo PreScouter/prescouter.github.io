@@ -1626,6 +1626,13 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .career-pagehead{background: url("../images/careers.jpg") no-repeat top center;background-size: cover;height: 250px;}
 /*End 12-AUG*/
 
+/*13-AUG*/
+#testimonial-con {padding: 30px 0; background:url("../images/testimonialbg.jpg") no-repeat;background-size:cover; }
+.testimonial-box strong{color: #fff;padding-top: 40px;display: block;line-height: normal;font-size: 20px;font-family: "Roboto",sans-serif;font-weight: 300;}
+.testimonial-box .col-md-6{position: relative;}
+.testimonial-box img.qt{position: absolute;max-width: 30px;}
+.testimonial-box small{color: #ddd;font-size: 15px;margin-top: 20px;display: inline-block;border-top: 1px solid rgba(255,255,255,0.1);padding: 10px 20px 0;}
+/*End 13-AUG*/
 
 
 /*Responsive Queries*/
