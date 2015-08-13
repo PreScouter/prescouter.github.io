@@ -1632,6 +1632,20 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .testimonial-box .col-md-6{position: relative;}
 .testimonial-box img.qt{position: absolute;max-width: 30px;}
 .testimonial-box small{color: #ddd;font-size: 15px;margin-top: 20px;display: inline-block;border-top: 1px solid rgba(255,255,255,0.1);padding: 10px 20px 0;}
+.flogo {
+    color: #787878 !important;
+    font-size: 18px;
+}
+.flogo span {
+    color: #007aff;
+    font-family: "Raleway",sans-serif;
+    font-weight: 200;
+}
+.flogo label {
+    color: #707070;
+    font-family: "Raleway",sans-serif;
+    font-weight: 200;
+}
 /*End 13-AUG*/
 
 
