@@ -1259,7 +1259,7 @@ body{overflow-x: hidden;}
 .benif-client-logos li {float: left;text-align: center;width: auto; padding: 0 10px;height: 60px;width: 16.66%;}
 .benif-client-logos li img{max-width: 100%;}
 
-#animated-number {padding: 100px 0; background:url("../images/funfacts-bg2.jpg") no-repeat;background-size:cover; }
+#animated-number {padding: 100px 0; background:url("../images/funfacts-bg3.jpg") no-repeat;background-size:cover; }
 
 .animated-number {display: inline-block;font-size: 42px;font-family: "Roboto",sans-serif;font-weight: 300;padding-bottom: 15px;border-bottom: 2px solid #fff;}
 #animated-number strong{line-height: normal;margin-top: 10px;}
@@ -1646,6 +1646,15 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     font-family: "Raleway",sans-serif;
     font-weight: 200;
 }
+.animated > * {
+    border: 0 none;
+    display: inline-block;
+    float: left;
+    line-height: normal;
+    width: 50%;
+}
+.animated > strong{text-align: right;border-right: 2px solid rgba(255,255,255,0.1); padding: 10px 20px 10px 0;margin-top: 0;font-size: 20px;font-weight: 300;}
+.animated > div{text-align: left;padding-left: 20px;padding-bottom: 0;line-height: 85px;font-weight: 700;}
 /*End 13-AUG*/
 
 
