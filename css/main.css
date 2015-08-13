@@ -1187,10 +1187,10 @@ ul.nostyle i {
 }
 #scholars {
   overflow: hidden;
- padding: 100px 0;
+ //padding: 100px 0;
 }
 #scholars .item {
-  height: 790px;
+  height: 930px;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -1592,7 +1592,7 @@ margin-top: 80px;
 .testimonials .client-quote img.clientimg{left: -20px;max-width: 100%;width: 170px;height: 170px;}
 .testimonials  .client-quote small{padding: 0 0 0 135px;}
 #services .media-body p {background: rgba(0,0,0,0.7);color: #fff;}
-#scholars{padding: 0 0 100px;position: relative;}
+#scholars{position: relative;}
 #scholars .section-header{top: 40px;position: absolute;width: 100%;}
 #main-slider .slider-inner h2{text-transform: none;font-weight: 700;}
 #main-slider .slider-inner p{color: #000;font-size: 22px;margin: 20px 0;border-top: 1px solid #ddd;padding-top: 20px;}
@@ -1673,6 +1673,7 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
  .container {width: 90%;}
  #work-process .row .col-md-4{width: 100%;margin-bottom: 25px;}
  .how-it-box{min-height: auto;}
+  #benefit2 .col-md-6,#benefit3 .col-md-6{float: left;width: 100%;}
 }
 @media (max-width: 800px){
 .navi-menu {width: 74%;}
@@ -1711,3 +1712,18 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
   .head-join-btn{margin-right: 3px !important;}
   .benif-client-logos li{width: 50%;}
 }
+.subsform{
+    
+    margin-top:5px;
+}
+.foot-emailcon a.btn{
+    font-size: 20px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 220px;
+    
+}
+
