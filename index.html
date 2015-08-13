@@ -1076,6 +1076,78 @@ End New Design -->
          </div>
         </div>
     </section-->
+  
+    <div class="foot-emailcon">
+   <div class="container">
+    <div class="col-md-10 col-sm-offset-1">
+     <strong class="text-center signtext text-uppercase">
+          Join over <b>150,000 corporate innovation leaders</b><br> who get our best innovation <b>strategies, tactics and news.</b>
+          </strong>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+
+    <div class="row">
+<div class="form-subscribe">
+     <div class="col-md-12">
+      <strong class="text-center text-uppercase">Signup for our Email Newsletter</strong><br>
+     </div>
+     <div class="col-md-6 col-md-offset-3">
+      <div class="input-group form-group ">
+       <input type="email" placeholder="Enter Your Email Address" class="form-control onemail">
+       <span class="input-group-btn ">
+            <button type="button" class="btn btn-primary">Subscribe</button>
+          </span>
+      </div>
+      <div class="input-group">
+      <label class="checkbox-inline"><input type="checkbox" id="formcheck"> Have us contact you!</label>
+      </div>
+     </div>
+     </div>
+     <div class="mainform ">
+     <div class="col-md-12">
+      <strong class="text-center text-uppercase">Have us contact you!</strong><br>
+     </div>
+     <div class="col-md-6 col-md-offset-3">
+      
+      
+      <div class=" form-group">
+       
+        <input type="email"  placeholder="Enter Your Email" class="form-control twomail" required>
+       
+       </div>
+       <div class=" form-group">
+       
+        <input type="text" placeholder="Enter Your Name " class="form-control" required>
+       
+       </div>
+       <div class="form-group">
+ 
+        <textarea placeholder="Enter Your Name " class="form-control" required></textarea>
+       
+       </div>
+      <div class="form-group text-center">
+       <button class="btn btn-primary">
+       <i class="fa fa-envelope-o"></i> SUBMIT
+       </button>
+       </div>
+       <div class="form-group text-center">
+          <div class="clearfix"></div>
+      <hr>
+      <div class="clearfix"></div>
+    <a class="btn btn-default news-form">Subscribe to Newsletter</a>
+       </div>
+      </div>
+      
+    
+     </div>
+
+
+    </div>
+
+   </div>
+  </div>
+  <div class="clearfix"></div>
  <!--/#get-in-touch-->
  <section id="contact">
 
@@ -1083,7 +1155,7 @@ End New Design -->
   <div class="container-wrapper">
    <div class="container">
     <div class="row">
-     <div class="col-md-6">
+     <div class="col-md-6 col-md-offset-3">
       <div class="contact-form pull-left">
 
        <div class="contant-info">
@@ -1100,7 +1172,7 @@ End New Design -->
 
       </div>
      </div>
-     <div class="col-md-6">
+    <!-- <div class="col-md-6">
       <div class="contact-form contact-form2">
        <h3>Have us contact you!</h3>
 
@@ -1120,7 +1192,7 @@ End New Design -->
         <button type="submit" class="btn btn-primary">Send Message</button>
        </form>
       </div>
-     </div>
+     </div>-->
     </div>
    </div>
   </div>
@@ -1128,35 +1200,7 @@ End New Design -->
  <!--/#bottom-->
 
  <footer id="footer">
-  <div class="foot-emailcon">
-   <div class="container">
-    <div class="col-md-10 col-sm-offset-1">
-     <strong class="text-center signtext text-uppercase">
-          Join over <b>150,000 corporate innovation leaders</b><br> who get our best innovation <b>strategies, tactics and news.</b>
-          </strong>
-    </div>
-    <div class="clearfix"></div>
-    <br>
 
-    <div class="row">
-
-     <div class="col-md-5 col-md-offset-1">
-      <strong class="text-center text-uppercase">Signup for our Email Newsletter</strong>
-     </div>
-     <div class="col-md-6">
-      <div class="input-group">
-       <input type="email" placeholder="Enter Your Email Address" class="form-control">
-       <span class="input-group-btn">
-            <button type="button" class="btn btn-primary">Subscribe</button>
-          </span>
-      </div>
-     </div>
-
-
-    </div>
-
-   </div>
-  </div>
   <div class="container">
    <div class="row">
     <div class="col-md-3 text-center">
@@ -1237,7 +1281,33 @@ End New Design -->
     $("#all_partners").trigger("click");
    }, 1000);
 
-  });
+
+    $('#formcheck').change(function(){
+        if(this.checked){
+            $('.mainform').show();
+         $('.form-subscribe').hide();
+         
+        }
+        else{
+            $('.mainform').hide();
+          $('.form-subscribe').show();
+        }
+
+    }); 
+   $('.news-form').click(function(){
+   
+            $('#formcheck').attr('checked', false);
+     
+            $('.mainform').hide();
+          $('.form-subscribe').show();
+    
+
+    });
+   $('.onemail').change(function() {
+    $('.twomail').val($(this).val());
+});
+  
+});
  </script>
 </body>
 

@@ -1156,7 +1156,7 @@ ul.nostyle i {
 ********* Footer ******
 ************************/
 #footer {
-  /* padding-top: 30px; */
+   padding-top: 30px; 
   padding-bottom: 30px;
   color: #fff;
   background: #2e2e2e;
@@ -1285,7 +1285,7 @@ body{overflow-x: hidden;}
 /*28-JULY*/
 
 
-.foot-emailcon{width: 100%;float: left;background: #eaf4ff;padding: 40px 0 ; margin-bottom: 40px;}
+.foot-emailcon{width: 100%;float: left;background: #eaf4ff;padding: 40px 0 ; /*margin-bottom: 40px;*/}
 .foot-emailcon strong{color: #007aff;font-size: 22px;width: 100%;display: block;font-weight: 300;font-family: "Roboto",sans-serif;}
 .foot-emailcon .input-group input{border-color: #66afff;}
 .foot-emailcon .input-group button{border:1px solid #66afff;}
@@ -1332,7 +1332,7 @@ body{overflow-x: hidden;}
 #contact .contact-form {
   background: rgba(255, 255, 255, 0.8);
   box-sizing: border-box;
-  min-height: 430px;
+  /*min-height: 430px;*/
   padding: 50px;
   width: 100%;
 } 
@@ -1348,7 +1348,7 @@ body{overflow-x: hidden;}
 #bs-example-navbar-collapse-1 .dropdown-menu a {
   padding: 8px 0!important;
 } 
-.google-map-part{height:547px}
+.google-map-part{height:417px}
 
 #contant-info-one .btn.btn-primary{padding: 5px 30px 6px 30px;}
 /*-end-July-22-*/
@@ -1646,16 +1646,18 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     font-family: "Raleway",sans-serif;
     font-weight: 200;
 }
-.animated > * {
+
+#animated-number .animated > strong{text-align: right;border-right: 2px solid rgba(255,255,255,0.1); padding: 10px 20px 10px 0;margin-top: 0;font-size: 20px;font-weight: 300;}
+#animated-number .animated > div{text-align: left;padding-left: 20px;padding-bottom: 0;line-height: 70px;font-weight: 700;}
+#animated-number .animated > * { 
     border: 0 none;
     display: inline-block;
     float: left;
     line-height: normal;
     width: 50%;
 }
-#animated-number .animated > strong{text-align: right;border-right: 2px solid rgba(255,255,255,0.1); padding: 10px 20px 10px 0;margin-top: 0;font-size: 20px;font-weight: 300;}
-#animated-number .animated > div{text-align: left;padding-left: 20px;padding-bottom: 0;line-height: 85px;font-weight: 700;}
-/*End 13-AUG*/
+.mainform{display: none;}
+
 
 
 /*Responsive Queries*/
