@@ -1653,8 +1653,8 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     line-height: normal;
     width: 50%;
 }
-.animated > strong{text-align: right;border-right: 2px solid rgba(255,255,255,0.1); padding: 10px 20px 10px 0;margin-top: 0;font-size: 20px;font-weight: 300;}
-.animated > div{text-align: left;padding-left: 20px;padding-bottom: 0;line-height: 85px;font-weight: 700;}
+#animated-number .animated > strong{text-align: right;border-right: 2px solid rgba(255,255,255,0.1); padding: 10px 20px 10px 0;margin-top: 0;font-size: 20px;font-weight: 300;}
+#animated-number .animated > div{text-align: left;padding-left: 20px;padding-bottom: 0;line-height: 85px;font-weight: 700;}
 /*End 13-AUG*/
 
 
