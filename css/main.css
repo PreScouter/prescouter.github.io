@@ -1663,7 +1663,21 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 #clients .portfolio-item{width:16.66%;height: auto;float: left;}
 #clients .portfolio-item li{width: 100%;padding: 0 20px;margin: 10px 0 10px 0;}
 #clients .portfolio-item img{height: 40px;}
-
+#benefit2 {
+    position: relative;
+    overflow: hidden;
+}
+#benefit2 .item {
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 930px;
+}
+#benefit2 .section-header {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
