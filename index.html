@@ -255,7 +255,7 @@
 
     </ul>
    </div>
-   <div class="portfolio-items">
+   <div class="portfolio-items" style="display:none;">
     <div class="clearfix"></div>
     <div class="portfolio-item all five">
      <ul class="benif-client-logos pull-left">
@@ -1418,10 +1418,11 @@ window.onload = function(){
   document.getElementById("all_partners").click();
 }
   $(document).ready(function () {
-  
-
-
-    $('#formcheck').change(function(){
+    
+   $(".portfolio-items").show();
+   $("#all_partners").click();
+    
+   $('#formcheck').change(function(){
         if(this.checked){
             $('.mainform').show();
          $('.form-subscribe').hide();

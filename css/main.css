@@ -1412,7 +1412,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     font-family: "Raleway",sans-serif;
     font-weight: 400;
 }*/
-#clients .portfolio-items{width: 100%;margin:  0  !important;float: left;}
+#clients .portfolio-items{width: 100%;margin:  0  !important;float: left; display:none;}
 #clients .portfolio-item{width: auto;padding: 0;}
 #clients .portfolio-filter > li a{min-height: 55px;line-height: normal;background: #fff;border-right:1px solid #ddd; }
 #clients .portfolio-filter > li a:focus{outline: none;}
