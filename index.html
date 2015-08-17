@@ -1423,16 +1423,9 @@ End New Design -->
  <script src="js/wow.min.js"></script>
  <script src="js/main.js"></script>
  <script>
-  $(window).load(function () {
-
-   setTimeout(function () {
-
-    $("#all_partners").trigger("click");
-    
-
-   });
-   
-  });
+window.onload = function(){
+  document.getElementById("all_partners").click();
+}
   $(document).ready(function () {
   
 
