@@ -1674,9 +1674,10 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     height: 930px;
 }
 #benefit2 .section-header {
+   width: 100%;
     position: absolute;
     top: 40px;
-    width: 100%;
+  
 }
 /*Responsive Queries*/
 @media (max-width: 1024px){
