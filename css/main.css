@@ -1468,16 +1468,16 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
 
 /* 5 aug*/
-#clientquote{margin-bottom: 60px;}
-.client-quote{padding: 25px;position: relative;max-width: 700px;margin: auto;border-radius: 20px;background: #eaf4ff;border:3px solid #fff;box-shadow:  0 0 10px #ccc;} 
-.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #454545;display: block;padding: 40px 70px 40px 180px;}
-.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 26px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
+#clientquote{background: url('../images/clientquote.png') no-repeat;background-size:cover;}
+.client-quote{padding: 25px;position: relative;max-width: 800px;margin: auto;} 
+.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #fff;display: block;padding: 40px 70px 40px 200px;}
 .client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
-.client-quote img.qt{position: absolute;left: 22%;max-width: 40px;top: 13%;}
-.client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: -30px;border-radius: 50%;background-color: #fff;border:10px solid #fff;box-shadow:  0 0 10px #ccc;}
-.client-quote img.clientlogo{margin-left: 190px;margin-top: 10px;}
-.client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 190px;font-size: 16px;color: #4da2ff;}
+.client-quote img.qt{position: absolute;left: 22%;max-width: 30px;top: 13%;}
+.client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: 0;}
+.client-quote img.clientlogo{margin-left: 210px;margin-top: 10px;}
+.client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 210px;font-size: 16px;color: #fff;}
 
+.media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 26px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
 
 /*Career Page Classes*/
 .career-pagehead{background: url("../images/career.jpg") no-repeat top center;background-size: cover;}
@@ -1597,7 +1597,7 @@ margin-top: 80px;
 
 /*11-AUG*/
 .testimonials .client-quote{max-width: 100%;min-height: 270px;}
-.testimonials .client-quote strong{font-size: 16px;padding: 40px 20px 40px 130px;}
+.testimonials .client-quote strong{font-size: 16px;padding: 40px 20px 40px 200px;}
 .testimonials .client-quote img.qt{left: 17%;}
 .testimonials .client-quote img.clientimg{left: -20px;max-width: 100%;width: 170px;height: 170px;}
 .testimonials  .client-quote small{padding: 0 0 0 135px;}
@@ -1624,7 +1624,7 @@ margin-top: 80px;
 }
 .howitwork{
 /* background: url('../images/howitworkbg.jpg') repeat; */
- padding: 100px 0;margin-bottom: 100px;
+ padding: 100px 0;
 background-color: #f9f9f9;
 }
 body.innerpage {
