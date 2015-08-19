@@ -1187,7 +1187,7 @@ ul.nostyle i {
   -webkit-box-shadow: none;
 }
 #scholars {
-  overflow: hidden;
+  //overflow: hidden;
  //padding: 100px 0;
 }
 #scholars .item {
@@ -1468,11 +1468,11 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
 
 /* 5 aug*/
-#clientquote{background: url('../images/clientquote.png') no-repeat;background-size:cover;}
+#clientquote{background: url('../images/clientquote1.png') no-repeat;background-size:cover;}
 .client-quote{padding: 25px;position: relative;max-width: 800px;margin: auto;} 
-.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #fff;display: block;padding: 40px 70px 40px 200px;}
+.client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #fff;display: block;padding: 30px 30px 40px 160px;}
 .client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
-.client-quote img.qt{position: absolute;left: 22%;max-width: 30px;top: 13%;}
+.client-quote img.qt{position: absolute;left: 17%;max-width: 30px;top: 13%;}
 .client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: 0;}
 .client-quote img.clientlogo{margin-left: 210px;margin-top: 10px;}
 .client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 210px;font-size: 16px;color: #fff;}
@@ -1755,3 +1755,63 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     
 }
 
+#benefit1 .item {
+  height: 930px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+#benefit1 .slider-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+#benefit1 .slider-inner h2 {
+  margin-top: 180px;
+  font-size: 36px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
+#benefit1 .slider-inner h2 > span {
+  color: #007aff;
+}
+#benefit1 .slider-inner .btn {
+  margin-top: 10px;
+}
+#benefit1 .owl-prev,
+#benefit1 .owl-next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+  margin-top: -35px;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 100px;
+  z-index: 5;
+  -webkit-transition: background-color 400ms;
+  transition: background-color 400ms;
+}
+#benefit1 .owl-prev:hover,
+#benefit1 .owl-next:hover {
+  background-color: #007aff;
+}
+#benefit1 .owl-prev {
+  left: -35px;
+  text-indent: 14px;
+}
+#benefit1 .owl-next {
+  right: -35px;
+  text-indent: -14px;
+}
+#blog{
+    background: #66afff;
+}
