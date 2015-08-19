@@ -1468,7 +1468,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .navbar-brand label{color: #707070;font-weight: 400;font-family: 'Raleway', sans-serif;}
 
 /* 5 aug*/
-#clientquote{background: url('../images/clientquote1.png') no-repeat;background-size:cover;}
+#clientquote{background: url('../images/clientquote2.png') no-repeat;background-size:cover;}
 .client-quote{padding: 25px;position: relative;max-width: 800px;margin: auto;} 
 .client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #fff;display: block;padding: 30px 30px 40px 160px;}
 .client-quote strong b{color: #007aff;text-transform: uppercase;font-weight: 300;}
@@ -1756,10 +1756,10 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 }
 
 #benefit1 .item {
-  height: 930px;
+  height: 500px;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: cover;
+  /* background-size: cover; */
 }
 #benefit1 .slider-inner {
   position: absolute;
@@ -1813,5 +1813,12 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
   text-indent: -14px;
 }
 #blog{
-    background: #66afff;
+    background: #BFDDFF;
+}
+#blog .section-header{
+    font-weight: bold;
+}
+
+.post-proj .col-md-6 .strong{
+    font-size: 35px;
 }
