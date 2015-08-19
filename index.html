@@ -1420,13 +1420,29 @@ End New Design -->
  <script src="js/main.js"></script>
  <script>
 window.onload = function(){
+  function myResizeFunction() {
+    var jQuerywindow = jQuery(this),
+        height = Math.ceil(jQuerywindow.height()),
+        previousHeight = jQuerywindow.data('previousHeight');
+
+    if (height !== previousHeight) {
+      if (height < 819)
+        previousHeight >= 819 && jQuery('.footer').removeClass('hgte819');
+      else if (!previousHeight || previousHeight < 819)
+        jQuery('.footer').addClass('hgte819');
+
+      jQuerywindow.data('previousHeight', height);
+    }
+  }
   document.getElementById("all_partners").click();
+ jQuery(window).resize(myResizeFunction).trigger("resize");
+jQuery(".portfolio-items").show();
+
+ 
 }
   $(document).ready(function () {
-    
-   $(".portfolio-items").show();
-   $("#all_partners").click();
-    
+   
+   
    $('#formcheck').change(function(){
         if(this.checked){
             $('.mainform').show();
