@@ -1540,8 +1540,6 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 #services .col-sm-4:hover .media-body > div{opacity: 0.9;
  -webkit-transform: rotateY(0deg); /* Safari */
     transform: rotateY(0deg); /* Standard syntax */
-
- 
 }
 #services .col-sm-4 .media-body > div p{display: table-cell;vertical-align: middle;font-size: 17px;padding: 30px;}
 .about-pagehead{background: url("../images/about-pg1.jpg") no-repeat top center;background-size: cover;height: 250px;}
@@ -1688,6 +1686,15 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     top: 40px;
   
 }
+/*20-AUG*/
+.form-subscribe > .col-md-6{position: relative;}
+.form-subscribe > .col-md-6:after{width:1px;height:100%;position: absolute;content: " ";border: 1px solid #e5e5e5;right: 0;top:0;
+ border-width: 1px 1px 1px 0;}
+.form-subscribe > .col-md-6:before{width:1px;height:100%;position: absolute;content: " ";border: 1px solid #fff;right: -1px;top:0;border-width: 1px 1px 1px 0;}
+.form-subscribe .post-proj strong{font-size: 30px;}
+.form-subscribe > .col-md-6 .subsform{margin: auto;width: 460px;max-width: 100%;}
+/*End 20-AUG*/
+
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
