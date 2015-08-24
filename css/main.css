@@ -1624,7 +1624,11 @@ margin-top: 80px;
 .howitwork{
 /* background: url('../images/howitworkbg.jpg') repeat; */
  padding: 100px 0;
-background-color: #f9f9f9;
+background-color: #fff;
+}
+
+#services{
+    background-color: #f9f9f9;
 }
 body.innerpage {
     background: #ececec none repeat scroll 0 0;
