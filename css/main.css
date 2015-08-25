@@ -1472,7 +1472,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 
 .client-quote{padding: 25px;position: relative;max-width: 800px;margin: auto;} 
 .client-quote strong{font-size: 29px; font-family: "Roboto",sans-serif;font-weight: 400;line-height: normal;color: #fff;display: block;padding: 30px 30px 40px 160px;}
-.client-quote strong b{color: #fff;text-transform: uppercase;font-weight: 300;}
+.client-quote strong b{color: #fff;font-weight: 300;}
 .client-quote img.qt{position: absolute;left: 17%;max-width: 30px;top: 13%;}
 .client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: 0;}
 .client-quote img.clientlogo{margin-left: 210px;margin-top: 10px;}
