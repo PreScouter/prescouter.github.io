@@ -1476,6 +1476,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
 .client-quote img.qt{position: absolute;left: 17%;max-width: 30px;top: 13%;}
 .client-quote img.clientimg{position: absolute;max-width: 32%;left: -30px;bottom: 0;}
 .client-quote img.clientlogo{margin-left: 210px;margin-top: 10px;}
+.client-quote img.clientlogo2{max-height: 20px;}
 .client-quote small{ font-family: "Roboto",sans-serif;font-weight: 500;display: block;padding: 0 0 0 210px;font-size: 16px;color: #fff;}
 
 .media.service-box .media-heading{font-family: "Roboto",sans-serif;font-weight: 500;font-size: 26px; text-transform: uppercase;margin: 15px 0;color: #007aff;word-wrap: break-word;}
