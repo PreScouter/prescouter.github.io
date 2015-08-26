@@ -1543,7 +1543,7 @@ font-family: "Roboto",sans-serif;font-weight: 300;
  -webkit-transform: rotateY(0deg); /* Safari */
     transform: rotateY(0deg); /* Standard syntax */
 }
-#services .col-sm-4 .media-body > div p{display: table-cell;vertical-align: middle;font-size: 17px;padding: 30px;}
+#services .col-sm-4 .media-body > div a{display: table-cell;vertical-align: middle;font-size: 17px;padding: 30px;color: #fff;}
 .about-pagehead{background: url("../images/about-pg1.jpg") no-repeat top center;background-size: cover;height: 250px;}
 .about-pagehead .inpage-header-overlay{background:rgba(0, 0, 0, 0.5);}
 .about-pagehead .container{position: relative;z-index: 2;color: #fff;}
