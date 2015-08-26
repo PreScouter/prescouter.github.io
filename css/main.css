@@ -1706,6 +1706,31 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .client-quote2 img.clientimg{max-width: 210px;}
 /*End 21-AUG*/
 
+/*26-AUG*/
+
+.servicebox{
+    background: #fff;
+    float: left;
+    margin: 0;
+   
+    padding: 40px 20px;
+    width: 100%;
+
+}
+
+.servicebox .servicebox-left{height: 320px; display: table;float: left;width: 100%;}
+.servicebox .servicebox-left  > div{display: table-cell;vertical-align: middle;width: 100%;}
+.servicebox-right img{max-width: 100%;}
+.servicebox-left strong {
+    color: #007aff;
+    font-family: "Roboto",sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin: 15px 0;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.servicebox-left p{line-height: normal;}
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
