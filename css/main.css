@@ -246,9 +246,7 @@ ul.nostyle i {
 #main-slider .slider-inner h2 > span {
   color: #007aff;
 }
-#main-slider .slider-inner .btn {
-  margin-top: 10px;
-}
+
 #main-slider .owl-prev,
 #main-slider .owl-next {
   position: absolute;
@@ -1437,17 +1435,15 @@ font-family: "Roboto",sans-serif;font-weight: 300;
     background: #007aff none repeat scroll 0 0 !important;
 }
 .carousel-content {
-    background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
-    padding: 30px;
- 
-    margin-top: 196px;
+
+    margin-top: 200px;
     /* line-height: 50px; */
 }
 #main-slider .slider-inner h2 {
-    color: #333 !important;
+   
     font-family: "Roboto",sans-serif;
     font-size: 50px !important;
-    font-weight: 400;
+
     /* margin-top: 45px !important; */
  
 }
@@ -1604,10 +1600,11 @@ margin-top: 80px;
 #services .media-body > div {background: rgba(0,0,0,0.7);color: #fff;}
 #scholars{position: relative;}
 #scholars .section-header{top: 40px;position: absolute;width: 100%;}
-#main-slider .slider-inner h2{text-transform: none;font-weight: 700;}
-#main-slider .slider-inner p{color: #000;font-size: 22px;margin: 20px 0;border-top: 1px solid #ddd;padding-top: 20px;}
+#main-slider .slider-inner h2{text-transform: none;font-weight: 700;color: #007aff;font-weight: 100;text-transform: uppercase;margin: 0;}
+#main-slider .slider-inner h2 b{font-weight: 600;}
+#main-slider .slider-inner p{color: #1e1e1e;font-size: 21px;margin: 25px 0 45px;font-weight: 300;text-transform: uppercase;}
 #main-slider .slider-inner a.btn{font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
     height: 40px;
     line-height: 40px;
     padding: 0;
@@ -1615,7 +1612,7 @@ margin-top: 80px;
  width: 220px;}
 #services .col-sm-4 {
     border: 1px solid #ddd;
- padding: 0
+ padding: 0;
 }
 #services .media.service-box {
     height: 260px;
