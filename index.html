@@ -931,35 +931,7 @@ jQuery(".portfolio-items").show();
 
  
 }
-  $(document).ready(function () {
-   
-   
-   $('#formcheck').change(function(){
-        if(this.checked){
-            $('.mainform').show();
-         $('.form-subscribe').hide();
-         
-        }
-        else{
-            $('.mainform').hide();
-          $('.form-subscribe').show();
-        }
 
-    }); 
-   $('.news-form').click(function(){
-   
-            $('#formcheck').attr('checked', false);
-     
-            $('.mainform').hide();
-          $('.form-subscribe').show();
-    
-
-    });
-   $('.onemail').change(function() {
-    $('.twomail').val($(this).val());
-});
-   
-});
  </script>
 </body>
 
