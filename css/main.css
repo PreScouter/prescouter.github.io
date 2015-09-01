@@ -1600,9 +1600,9 @@ margin-top: 80px;
 #services .media-body > div {background: rgba(0,0,0,0.7);color: #fff;}
 #scholars{position: relative;}
 #scholars .section-header{top: 40px;position: absolute;width: 100%;}
-#main-slider .slider-inner h2{text-transform: none;font-weight: 700;color: #007aff;font-weight: 100;text-transform: uppercase;margin: 0;}
-#main-slider .slider-inner h2 b{font-weight: 600;}
-#main-slider .slider-inner p{color: #1e1e1e;font-size: 21px;margin: 25px 0 45px;font-weight: 300;text-transform: uppercase;}
+#main-slider .slider-inner h2{text-transform: none;font-weight: 700;color: #fff;font-weight: 100;text-transform: uppercase;margin: 0;}
+#main-slider .slider-inner h2 b{font-weight: 600;color: #fff;}
+#main-slider .slider-inner p{color: #fff;font-size: 21px;margin: 25px 0 45px;font-weight: 300;text-transform: uppercase;}
 #main-slider .slider-inner a.btn{font-size: 20px;
     font-weight: 600;
     height: 40px;
