@@ -1741,6 +1741,7 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .innerpage #features{
 	padding: 50px 0;
 }
+#infographic{background-color: #e2edfa;width: 100%;float: left;}
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
