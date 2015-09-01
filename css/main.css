@@ -1736,6 +1736,8 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     background: rgba(0, 0, 0, 0) url("../images/Innovation2.jpg") no-repeat scroll center top / cover ;
 }
 .corporate-pagehead{  background: rgba(0, 0, 0, 0) url("../images/corporate-development.jpg") no-repeat scroll center top / cover ;}
+.legal-pagehead{  background: rgba(0, 0, 0, 0) url("../images/legal-patent.jpg") no-repeat scroll center top / cover ;}
+
 .innerpage #features{
 	padding: 50px 0;
 }
