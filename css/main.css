@@ -1741,7 +1741,9 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .innerpage #features{
 	padding: 50px 0;
 }
-#infographic{background-color: #e2edfa;width: 100%;float: left;}
+#infographic{background-color: #e2edfa;width: 100%;float: left;position: relative;padding: 50px 0;}
+#infographic img{max-width: 100%;}
+#infographic .section-header{position: absolute;width: 100%;text-align: center;top: 55px;}
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
@@ -1749,19 +1751,20 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 }
 @media (max-width: 980px){
  .navi-menu .nav.navbar-nav a {padding: 20px 8px !important;}
- .navbar.navbar-default .navbar-brand{padding: 16px 0 !important;float: left !important;width: 210px !important;margin-left: 0;}
+ .navbar.navbar-default .navbar-brand{padding: 16px 0 !important;float: left !important;width: 250px !important;margin-left: 0;}
  .navi-menu{margin-left: 0;}
  .navbar-brand > img{max-width: 85%;}
- .container {width: 90%;}
+ .container {width: 96%;}
  #work-process .row .col-md-4{width: 100%;margin-bottom: 25px;}
  .how-it-box{min-height: auto;}
   #benefit2 .col-md-6,#benefit3 .col-md-6{float: left;width: 100%;}
 }
 @media (max-width: 800px){
 .navi-menu {width: 74%;}
- .navbar.navbar-default .navbar-brand{width: 170px !important;}
+ .navbar.navbar-default .navbar-brand{width: 230px !important;}
  .head-join-btn2{margin-right: 0;}
   .container {width: 100%;}
+ #services .col-sm-4 .media-body > div a{line-height: normal;font-size: 15px;}
 }
 @media (max-width: 768px){
 .navi-menu .nav.navbar-nav a{padding: 20px 6px !important;}
@@ -1782,9 +1785,19 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
  #cta .col-sm-8{text-align: center;}
  #cta .btn{display: inline-block;}
  .benif-client-logos li{width: 33.3%;}
+ .navbar.navbar-default .navbar-brand{margin-left: 20px;}
+ .navbar.navbar-default .navbar-toggle{margin-top: 17px !important;}
 }
 @media (max-width: 480px){
  #cta h2 br{display: block;}
+ .how-it-box div img{max-width: 100%;}
+ .client-quote strong{font-size: 16px;padding: 30px 30px 40px 130px;}
+ .client-quote2 img.clientimg,.client-quote img.clientimg,.client-quote3 img.clientimg {
+    margin-left: 20px;
+    max-width: 150px;
+}
+ .client-quote img.clientlogo{margin-left: 130px;}
+ .client-quote small{padding: 0 0 0 130px;}
 }
 @media (max-width: 360px){
  .head-join-btn{font-size: 12px;}
@@ -1793,6 +1806,7 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .navi-menu{margin-top: -85px;}
   .head-join-btn{margin-right: 3px !important;}
   .benif-client-logos li{width: 50%;}
+ #main-slider .slider-inner h2{font-size: 40px !important;}
 }
 .subsform{
     
