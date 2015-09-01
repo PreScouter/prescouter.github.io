@@ -1728,6 +1728,11 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
     word-wrap: break-word;
 }
 .servicebox-left p{line-height: normal;}
+
+/*1-SEP*/
+.five.blank2{width:8.33% !important;}
+.six.blank2{width:8.33% !important;}
+
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
