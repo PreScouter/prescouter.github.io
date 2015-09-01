@@ -1732,7 +1732,9 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 /*1-SEP*/
 .five.blank2{width:8.33% !important;}
 .six.blank2{width:8.33% !important;}
-
+.innovation-pagehead {
+    background: rgba(0, 0, 0, 0) url("../images/Innovation2.jpg") no-repeat scroll center top / cover ;
+}
 /*Responsive Queries*/
 @media (max-width: 1024px){
  .navi-menu{width: 72%;}
