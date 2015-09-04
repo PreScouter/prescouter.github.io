@@ -1249,7 +1249,8 @@ ul.nostyle i {
 /*Css Modified*/
 body{overflow-x: hidden;}
 .btn-primary {background-color: #007aff;border-color:#007aff;    color: #ffffff;}
-.head-join-btn{border-radius: 4px;border-radius:4px;margin-top: 15px;border:1px solid #ddd;text-transform: uppercase;color: #5e5e5e;}
+.head-join-btn{border-radius: 4px;border-radius:4px;margin-top: 11px;border:1px solid #007aff;text-transform: uppercase;color: #fff;background: #007aff;}
+.head-join-btn img{max-width: 20px;margin-right: 5px;}
 .head-join-btn2{margin-right: 15px;}
 .head-join-btn:hover{background: #3395ff;border-color: #3395ff;color: #fff;}
 .navi-menu {float: left;width: 78%;} 
