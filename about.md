@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+redirect_to: - http://prescouter.com/about.html
 ---
 
 Some information about you!
