@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif; 
   color: #272727;
 }
 a {
@@ -1892,3 +1892,11 @@ body.innerpage .navbar.navbar-default .navbar-brand{padding: 13px 15px 11px;}
 .post-proj .col-md-6 .strong{
     font-size: 35px;
 }
+
+/*-Sept-21-*/ 
+.bbb-logo.text-center {
+  float: left;
+  margin-top: 20px;  
+  width: 100%;
+}
+/*-Sept-21-*/ 
